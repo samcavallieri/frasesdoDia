@@ -12,6 +12,9 @@
 		CE32912B22821283004515CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE32912922821283004515CA /* Main.storyboard */; };
 		CE32912D22821285004515CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE32912C22821285004515CA /* Assets.xcassets */; };
 		CE32913022821285004515CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE32912E22821285004515CA /* LaunchScreen.storyboard */; };
+		CE32913A228212C1004515CA /* aspas-direita.png in Resources */ = {isa = PBXBuildFile; fileRef = CE329137228212C1004515CA /* aspas-direita.png */; };
+		CE32913B228212C1004515CA /* aspas-esquerda.png in Resources */ = {isa = PBXBuildFile; fileRef = CE329138228212C1004515CA /* aspas-esquerda.png */; };
+		CE32913C228212C1004515CA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE329139228212C1004515CA /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CE32912C22821285004515CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE32912F22821285004515CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE32913122821285004515CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE329137228212C1004515CA /* aspas-direita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-direita.png"; sourceTree = "<group>"; };
+		CE329138228212C1004515CA /* aspas-esquerda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-esquerda.png"; sourceTree = "<group>"; };
+		CE329139228212C1004515CA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		CE32912422821283004515CA /* frasesdoDia */ = {
 			isa = PBXGroup;
 			children = (
+				CE329137228212C1004515CA /* aspas-direita.png */,
+				CE329138228212C1004515CA /* aspas-esquerda.png */,
+				CE329139228212C1004515CA /* logo.png */,
 				CE32912522821283004515CA /* AppDelegate.swift */,
 				CE32912722821283004515CA /* ViewController.swift */,
 				CE32912922821283004515CA /* Main.storyboard */,
@@ -124,7 +133,10 @@
 			files = (
 				CE32913022821285004515CA /* LaunchScreen.storyboard in Resources */,
 				CE32912D22821285004515CA /* Assets.xcassets in Resources */,
+				CE32913C228212C1004515CA /* logo.png in Resources */,
 				CE32912B22821283004515CA /* Main.storyboard in Resources */,
+				CE32913A228212C1004515CA /* aspas-direita.png in Resources */,
+				CE32913B228212C1004515CA /* aspas-esquerda.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
