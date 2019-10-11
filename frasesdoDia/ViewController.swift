@@ -20,9 +20,9 @@ class ViewController: UIViewController {
         
         var frases: [String] = []
         let fraseAleatoria = arc4random_uniform(3)
-        frases.append(" Se você quer fazer deus rir, conte seus planos para ele.")
-        frases.append(" Nada como cheiro de napalm no café da manhã. ")
-        frases.append(" Mantenha seus amigos perto e seus inimigos mais perto ainda. ")
+        frases.append(" Если хочешь рассмешить Бога, расскажи ему свои планы. Woddy Allen.")
+        frases.append(" Ничего подобного запаху напалма на завтрак. Подполковник Билл Килгор «Апокалипсис сейчас»")
+        frases.append(" Держите своих друзей ближе, а врагов - ближе. Виктор Корлеоне")
         legendaResultado.text = frases[ Int(fraseAleatoria) ]
         
     }
